@@ -1,4 +1,4 @@
-import { Component, Input,OnInit} from '@angular/core';
+/*import { Component, Input,OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -14,6 +14,23 @@ export class ChildComponent implements OnInit{
   constructor() { }
 
 ngOnInit():void{
-  
+
 }
+}
+*/
+
+import { Component} from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  template: `
+  `,
+  styleUrls: ['./child.component.css']
+})
+export class ChildComponent {
+
+  message = 'Hola Mundo!';
+
+  constructor() { }
+
 }
